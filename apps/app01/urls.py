@@ -15,7 +15,7 @@ urlpatterns = [
     path('Type3/',Type3View.as_view()),
 
     path('Type4/',Type4View.as_view()),
-    # path('type/',TypeView.as_view()),
+    path('type/',TypeView.as_view()),
 
 ]
 
